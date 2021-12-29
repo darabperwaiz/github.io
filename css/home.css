@@ -1,0 +1,519 @@
+/* ==== Color Palette ====
+
+Body  #333
+
+== End of Color Palette == */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica;
+}
+
+/* Header */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#top {
+    background: url('../images/back-top.png') center center no-repeat;
+    height: 300px;
+    position: relative;
+}
+
+.container #header {
+    width: 300px;
+    margin: 80px auto;
+    padding: 5px 10px;
+    position: absolute;
+
+}
+
+#top h1 span {
+    color: rgb(0, 197, 43);
+}
+
+#header h1 {
+    color: whitesmoke;
+}
+
+#header p {
+    color: whitesmoke;
+}
+
+#header #link {
+    color: rgb(255, 255, 255);
+    font-size: small;
+    margin: 5px 0 0 200px;
+    display: block;
+    background: url('../images/button.png') top left repeat;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+#link a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#link a:hover {
+    color: rgb(253, 255, 131);
+}
+
+/* Second Part */
+
+#main {
+    background: rgb(245, 245, 245);
+    height: 900px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    margin: -80px auto 20px auto;
+    float: inherit;
+    position: relative;
+}
+
+/* Sidebar box 1 */
+
+#sidebar {
+    width: 240px;
+    height: auto;
+    margin: auto auto 0 5px;
+    border-right: 2px solid rgb(230, 230, 230);
+}
+
+.sidbar-box1 {
+    margin: 10px 5px 5px 10px;
+    padding: 15px 0 10px 10px;
+    line-height: 40px;
+}
+
+.sidbar-box1 ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.sidbar-box1 ul li {
+    border-bottom: 2px solid rgb(236, 236, 236);
+    
+
+}
+
+.sidbar-box1 ul li a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    padding-left: 15px;
+}
+
+.sidbar-box1 ul li a:hover {
+    background: url('../images/hover-arrow.png') left no-repeat;
+    margin-left: 5px;
+}
+
+/* Sidebar box 2 */
+
+.sidebar-box2 {
+    margin: 25px 5px 5px 20px;
+    padding: 15px 0 10px 10px;
+    background: white;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.login-top {
+    background: rgb(233, 233, 233);
+    height: 25px;
+    padding: 12px 0 0 10px;
+    margin: -15px 0 0 -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login-top h3 {
+    color: rgb(94, 94, 94);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.credential {
+    margin: 10px 0 20px 5px;
+    padding: 5px 0 0 0;
+}
+
+.credential span {
+    font-size: 12px;
+}
+
+.credential input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    box-shadow: inset 3px 2px 4px 1px rgba(0, 0, 0, 0.062);
+}
+
+.sub input[type="submit"] {
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-left: 5px;
+    color: white;
+    background: url('../images/button.png') top left repeat;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Sidebar box 3 */
+
+.sidebar-box3 {
+    margin: 25px 5px 5px 20px;
+    padding: 15px 0 10px 10px;
+    background: white;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.updates {
+    background: rgb(233, 233, 233);
+    height: 25px;
+    padding: 12px 0 0 10px;
+    margin: -15px 0 0 -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.updates h3 {
+    color: rgb(94, 94, 94);
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.update-block {
+    margin: 15px 0 5px 0;
+    padding: 5px 5px 5px 30px;
+    border-bottom: 1px solid whitesmoke;
+    background: url('../images/star.png') top left no-repeat;
+    float: left;
+}
+
+.update-block p {
+    font-size: 13px;
+}
+
+.update-block time {
+    font-size: 10px;
+    color: rgb(45, 189, 45);
+}
+
+/* col */
+
+.col {
+
+    float: right;
+    height: 880px;
+    position: relative;
+    clear:both;
+    margin: -840px 0 0 0;
+    width: 500px;
+    display: block;   
+}
+
+.col img {
+    width: 180px;
+    height: 100px;
+    margin: 15px 0 5px -20px;
+    border: 4px solid #333;
+    padding: 2px auto;
+}
+
+.col h2 {
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.para h2, .para2 h2 {
+    margin:0 0 10px 1px;
+}
+
+.para, .para2 {
+    text-transform: capitalize;
+    width: 300px;
+    height: 90px;
+    overflow: hidden;
+    float: right;
+    padding: 10px 10px;
+    display: block;
+    font-size: 11px;
+    margin: 10px 5px 10px 5px;
+    position: absoulte;
+}
+
+.para .rdmr {
+    margin-top: 10px;
+}
+
+.para1 a, .para1 a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+.para2 .rdmr {
+    margin-top: 10px;
+}
+
+.rdmr a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.rdmr a:hover {
+    color: yellowgreen;
+}
+
+hr {
+    margin-top: 20px;
+    width: 400px;
+}
+
+/* FOOTER */
+
+#copyright {
+    display: block;
+    background: rgb(46, 46, 46);
+    padding: 50px auto;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.credit {
+    width: 800px;
+    margin: auto auto;
+}
+
+
+
+.credit .cop {
+    padding: 14px 0 0 0;
+    text-align: center;
+}
+
+.sidebar-box3 .block {
+    font-size: 12px;
+    margin: 10px 0 0 5px;
+    display: block;
+    position: relative;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.down {
+    margin: 10px 0 10px 0;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background: rgb(41, 184, 5);
+    border-radius: 10px;
+}
+
+.down p {
+    font-size: 11px;
+}
+
+.down a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* col 2 */
+
+.col2{
+    float: left;
+    position: relative;
+    clear:both;
+    width: 240px;
+    margin: 30px 5px 5px -20px;
+    display: block;
+}
+
+.ul li {
+    padding-bottom: 10px;
+}
+
+.col2 .h2 {
+    font-size: 15px;
+    padding: 20px 0 20px 40px;
+    background: url('../images/clip.png') left no-repeat;
+    
+}
+
+.col2 ul {
+    padding: 10px 0 5px 5px;
+    font-size: 14px;
+}
+
+.col2 ul li {
+    display: block;
+}
+
+.col2 .p2 {
+    font-size: 13px;
+
+}
+
+.col3{
+    float: right;
+    position: relative;
+    clear:both;
+    width: 250px;
+    margin: -245px 5px 5px 1px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+}
+
+.col3 .h3 {
+    font-size: 15px;
+    margin: 5px ;
+    padding: 20px 0 20px 50px;
+    background: url('../images/badge.png') left no-repeat;
+    
+}
+
+.col3 ul {
+    padding: 10px 0 5px 5px;
+    font-size: 14px;
+}
+
+.col3 ul li {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.col3 .p2 {
+    font-size: 13px;
+
+}
+
+.col4 {
+    float: left;
+    margin: 30px 5px 5px 0;
+    padding: 10px 0 10px 25px;
+    width: 450px;
+    font-weight: lighter;
+}
+
+.col4 h3 {
+    margin-left: -20px;
+}
+
+.col4 img {
+    width: 130px;
+    height: 110px;
+    border-color: rgb(233, 233, 233);
+}
+
+.col4 .pro1 {
+    float: float;
+    margin: -143px 0 0 155px;
+}
+
+.col4 .pro2 {
+    float: float;
+    margin: -142px 0 0 315px;
+}
+
+.all-projects {
+    margin: 10px 0 0 -15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.all-projects a {
+    text-decoration: none;
+    color: darkgreen;
+
+}
+
+.line {
+    border-bottom: 2px solid rgb(236, 236, 236);
+    padding-bottom: 15px;
+    width: 430px;
+}
+
+.hor-line {
+    border-left: 2px solid rgb(236, 236, 236);
+    width: 1px;
+    margin-left: 220px;
+    margin-top: 40px;
+    height: 180px;    
+}
+
+/* Home */
+
+.thumbnail img {
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px rgba(236, 236, 236, 0.644);
+}
+
+.our {
+    padding: 30px 30px 0 10px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    line-height: 120%;
+    font-size: 14px;
+}
+
+.section {
+    max-height: 480px;
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #d4aa70 #e4e4e4;
+    scrollbar-width: thin;
+}
+
+.section::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  .section::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+  
+  .section::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: #8070d4;
+  }
+  
+
+p + p {
+    margin-top: 2rem;
+}
+
+
+/* Clear Fix */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
